@@ -9,7 +9,7 @@ Available Fonts
 /*Modifying the background*/
 
 body{
-    background-image: url("images&videos/christmas_tree.jpg");
+    background-image: url("images_videos/christmas_tree.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
