@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Gemstones&display=swap');
+/*
+Available Fonts
+- Dancing Script
+- Indie Flower
+- Mountains of Christmas
+-Rubik Gemstones
+*/
+/*Modifying the background*/
+
+body{
+    background-image: url("images&videos/christmas_tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Modificando el estilo de letra de la pagina*/
+h1{
+    font-family: "Rubik Gemstones", "Mountains of Christmas", "Arial", "Sans Serif";
+    text-align: center;
+    font-size: 350%;
+    filter: drop-shadow(0 0 10px white);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-family: 'Indie Flower', 'Arial';
+    margin: 10px;
+    background: grey;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a{
+    font-family: "Indie Flower", "Dancing Script";
+    font-size: 250%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: linear-gradient(to top right, grey ,rgb(223, 215, 215));
+}
+
+h2{
+    font-family: "Indie Flower";
+    font-size: 300%;
+}
+
+.present
+{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 0, 0);
+    border: 5px solid black;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.decoracion_extra{
+    border: 5px solid black;
+    position: absolute;
+    margin-left: 875px;
+    width: 80px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(251, 255, 0);
+    transform: rotate(30deg);
+    z-index: -1;
+    margin-top: -16px;
+}
+
+.decoration2{
+    border: 5px solid black;
+    position: absolute;
+    margin-left: 940px;
+    width: 80px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(251, 255, 0);
+    transform: rotate(-30deg);
+    z-index: -1;
+    margin-top: -16px;
+}
+
+
+.ties{
+    border: 5px solid black;
+    display: flex;
+    width: 200px;
+    height: 10px;
+    background: rgb(251, 255, 0);
+    margin-top: 90px;
+    margin-left: -5px;
+}
+.ties2{
+    border: 5px solid black;
+    width: 200px;
+    height: 10px;
+    margin-left: -5px;
+    margin-top: -20px;
+    background: rgb(251, 255, 0);
+    transform: rotate(90deg);
+}
+
+
+.text_box_hide{
+    position: absolute;
+    z-index: 1;
+    background: black;
+    border: 1px solid white;
+    text-align: center;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 40px; /* Adjust this value to move the image down */
+    height: 210px;    /* Set height to auto to maintain the aspect ratio */
+    width: 210px;
+    margin-bottom: 10px;
+}

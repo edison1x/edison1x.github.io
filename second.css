@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Gemstones&display=swap');
+/*
+Fuentes Disponibles
+- Dancing Script
+- Indie Flower
+- Mountains of Christmas
+- Rubik Gemstones
+*/
+
+/*Modificando el fondo*/
+
+body{
+    background-image: linear-gradient(purple, darkslateblue, purple);
+}
+
+/*Modificando el estilo de letra de la pagina*/
+h1{
+    font-family: "Rubik Gemstones", "Mountains of Christmas", "Arial", "Sans Serif";
+    text-align: center;
+    font-size: 350%;
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+
+a{
+    font-family: "Indie Flower", "Dancing Script";
+    font-size: 250%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px;
+    background-image: linear-gradient(to top right, grey ,rgb(223, 215, 215));
+}
+
+p{
+    text-align: justify;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h2{
+    font-family: "Indie Flower";
+    font-size: 300%;
+    text-align: center;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-image: linear-gradient(to bottom right, blue 20%, rgb(231, 83, 83) 50%, blue 100%);
+    filter: drop-shadow(0 0 10px white);
+}
+
+.text_p{
+    text-align: center;
+    font-family: 'Indie Flower';
+    border: 5px solid black;
+    background-image: linear-gradient(to bottom right, blue 20%, rgb(231, 83, 83) 50%, blue 100%);
+    filter: drop-shadow(0 0 10px white);    
+}

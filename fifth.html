@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Merry Christmas Pomelo!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Christmas Gift &hearts;&#x1F384;</h1>
+    </header>
+    <nav>
+        <a class="links_home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
+        <a class="links" href="./first.html">Photos and videos</a></li>
+        <a class="links" href="./second.html">Promises</a></li>
+        <a class="links" href="./third.html">Coupons</a></li>
+        <a class="links" href="./fourth.html">Surprise</a></li>
+        <a class="links" href="#">Hugs</a></li>
+    </nav>
+
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Would you like a hug</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.giphy.com/media/LnKonfpQ44fNvuGLkA/giphy.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">YESSS</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()">no</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>

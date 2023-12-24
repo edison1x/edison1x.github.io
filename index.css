@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Indie+Flower&family=Mountains+of+Christmas:wght@400;700&family=Rubik+Gemstones&display=swap');
+/*
+Fuentes Disponibles
+- Dancing Script
+- Indie Flower
+- Mountains of Christmas
+- Rubik Gemstones
+*/
+
+/*Modificando el cuerpo*/
+
+body{
+    background-image: url('images&videos/christmas_tree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 180%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Mountains of Christmas', 'Indie Flower', 'Arial';
+    font-size: 60px;
+}
+
+.presentacion{
+    color: white;
+    font-family: 'Dancing Script', 'Arial';
+    font-size: 30px;
+    text-align: justify;
+    border: 1px solid;
+    background-color: grey;
+    padding: 20px;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', 'Arial';
+    font-size: 30px;
+}
+
+.present{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cuerpo{
+    width: 120px;
+    height: 120px;
+    background: rgb(255, 0, 0);
+}
+
+.lazo{
+    display: flex;
+    width: 120px;
+    height: 10px;
+    background: rgb(251, 255, 0);
+    margin-top: 55px;
+}
+.lazo2{
+    width: 120px;
+    height: 10px;
+    background: rgb(251, 255, 0);
+    transform: rotate(90deg);
+}
+
+.link{
+    display: flex;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid;
+    border-color: grey;
+    background: grey;
+    z-index: 1;
+    font-family: 'Rubik Gemstones';
+}
+
+.name-container {
+    text-align: center; /* Center the name */
+    margin-top: 20px;   /* Adjust the margin to create space between the message and the name */
+}
+
+
+.presentacion-container {
+    text-align: center;
+    font-family: 'Dancing Script', 'Arial';        /* Center the content */
+}
+
+.name {
+    font-family: 'Dancing Script', 'Arial';
+    font-weight: bold;   /* Make the name bold, you can adjust styles as needed */
+}
