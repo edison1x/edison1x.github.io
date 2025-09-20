@@ -1,9 +1,9 @@
-baseURL = 'edison1x.github.io'
+baseURL = 'https://edison1x.github.io'
 languageCode = 'en-GB'
 title = 'Edison's Blog'
 theme = 'hugo-bearblog'
-author = 'Edison Wong'
-theme = "hugo-bearblog"
 
 [params]
   math = true
+  author = 'Edison Wong'
+  description = "Exploring maths and computer science"
